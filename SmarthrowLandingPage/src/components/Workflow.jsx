@@ -20,7 +20,7 @@ const Workflow = () => {
             </span>
         </h2>
       </div>
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center mt-10 lg:mt-20">
         <div className="p-2 w-full lg:w-1/2">
             <img src={DetailedPage} alt="Dashboard" />
         </div>
