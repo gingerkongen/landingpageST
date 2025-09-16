@@ -20,20 +20,22 @@ const Navbar = () => {
                 </div>
                 <ul className="hidden lg:flex ml-14 space-x-12">
                     <li key="1">
-                        <a href="#">Features</a>
+                        <a href="#features">Features</a>
                     </li>
                     <li key="2">
-                        <a href="#">About us</a>
+                        <a href="#workflow">Workflow</a>
                     </li>
                     <li key="3">
-                        <a href="#">Pricing</a>
+                        <a href="#">About us</a>
                     </li>                                        
                 </ul>
                 <div className="hidden lg:flex justify-center space-x-12 items-center">
                     <a href="#" className="py-2 px-3 border rounded-md">
                         Web App Login
                     </a>
-                    <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-700 py-2 px-3 border rounded-md">
+                    <a href="mailto:support@smarthrow.com"
+                        aria-label="Email support at smarthrow dot com" 
+                        className="bg-gradient-to-r from-orange-500 to-orange-700 py-2 px-3 border rounded-md">
                         Request Onboarding
                     </a>
                 </div>
@@ -49,20 +51,22 @@ const Navbar = () => {
                 flex flex-col justify-center items-center lg:hidden">
                     <ul>
                         <li key="1" className="py-4">
-                            <a href="#">Features</a>
+                            <a href="#features">Features</a>
                         </li>
                         <li key="2" className="py-4">
-                            <a href="#">About us</a>
+                            <a href="#workflow">Workflow</a>
                         </li>
                         <li key="3" className="py-4">
-                            <a href="#">Pricing</a>
+                            <a href="#">About us</a>
                         </li>                          
                     </ul>
                     <div className="flex space-x-6">
                         <a href="#" className="py-2 px-3 border rounded-md">Web App Login</a>
-                        <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-700 py-2 px-3 border rounded-md">
+                        <a href="mailto:support@smarthrow.com"
+                            aria-label="Email support at smarthrow dot com" 
+                            className="bg-gradient-to-r from-orange-500 to-orange-700 py-2 px-3 border rounded-md">
                             Request Onboarding
-                        </a>                        
+                        </a>                      
                     </div>
                 </div>
             )}

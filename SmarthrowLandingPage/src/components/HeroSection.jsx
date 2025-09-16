@@ -16,11 +16,15 @@ const HeroSection = () => {
         to improve throwing performance and reduce injury risk.
       </p>
       <div className="flex justify-center my-10">
-        <a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3
+        <a href="mailto:support@smarthrow.com"
+        aria-label="Email support at smarthrow dot com" 
+        className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3
         rounded-md">
             Book a free consultation
         </a>
-        <a href="#" className="py-3 px-4 mx-3 rounded-md border">
+        <a href="mailto:support@smarthrow.com"
+          aria-label="Email support at smarthrow dot com"
+          className="py-3 px-4 mx-3 rounded-md border">
             Contact us
         </a>
       </div>
