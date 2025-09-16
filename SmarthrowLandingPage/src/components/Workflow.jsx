@@ -1,11 +1,11 @@
 import React from 'react'
 import { CheckCircle2 } from 'lucide-react';
-import DetailedPage from '../assets/workflow.png'
+import workflow from '../assets/workflow.png'
 import {workflowItems} from '../constants/WorkflowItems.jsx'
 
 const Workflow = () => {
   return (
-    <div className="mt-20">
+    <div className="relative mt-20 border-b border-neutral-800">
       <div className="text-center">
         <span className="bg-neutral-100 text-orange-500 rounded-full h-6
         text-sm font-medium px-2 py-1 uppercase">
@@ -20,9 +20,9 @@ const Workflow = () => {
             </span>
         </h2>
       </div>
-      <div className="flex flex-wrap justify-center mt-10 lg:mt-20">
+      <div className="mb-35 flex flex-wrap justify-center mt-10 lg:mt-20">
         <div className="p-2 w-full lg:w-1/2">
-            <img src={DetailedPage} alt="Dashboard" />
+            <img src={workflow} alt="Dashboard" />
         </div>
         <div className="pt-12 w-full lg:w-1/2">
             {workflowItems.map((item, index) => (

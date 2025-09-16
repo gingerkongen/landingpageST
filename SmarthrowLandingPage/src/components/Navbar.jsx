@@ -26,7 +26,7 @@ const Navbar = () => {
                         <a href="#workflow">Workflow</a>
                     </li>
                     <li key="3">
-                        <a href="#">About us</a>
+                        <a href="#about-us">About us</a>
                     </li>                                        
                 </ul>
                 <div className="hidden lg:flex justify-center space-x-12 items-center">
@@ -57,7 +57,7 @@ const Navbar = () => {
                             <a href="#workflow">Workflow</a>
                         </li>
                         <li key="3" className="py-4">
-                            <a href="#">About us</a>
+                            <a href="#about-us">About us</a>
                         </li>                          
                     </ul>
                     <div className="flex space-x-6">

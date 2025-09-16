@@ -6,9 +6,10 @@ import HeroSection from './components/HeroSection'
 import FeatureSection from './components/FeatureSection'
 import Workflow from './components/Workflow'
 import Footer from './components/Footer'
-function App() {
-  
+import AboutUs from './components/AboutUs'
 
+
+function App() {
   return (
     <>
       <Navbar />
@@ -21,8 +22,10 @@ function App() {
       <section id="workflow">
         <Workflow />
       </section>
+      <section id="about-us">
+        <AboutUs />
+      </section>      
       <Footer />
-
     </>
   )
 }
