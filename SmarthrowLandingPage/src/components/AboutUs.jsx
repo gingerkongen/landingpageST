@@ -23,7 +23,7 @@ const AboutUs = () => {
                 yet monitoring throwing load has until now been a major challenge.
                 <br></br>
                 <br></br>
-                SMARTthrow is being developed to give coaches and players a simple, 
+                SMARThrow is being developed to give coaches and players a simple, 
                 science-based tool for monitoring throwing load, 
                 helping to reduce injury risk and improve performance.
                 <br></br>
@@ -42,7 +42,7 @@ const AboutUs = () => {
   <h2 className="text-3xl sm:text-4xl lg:text-5xl mt-10 lg:mt-20 tracking-wide
                  text-center lg:text-left max-w-4xl mx-auto lg:mx-0">
                 <span>
-                    SMARTthrow is a work in progress 
+                    SMARThrow is a work in progress 
                 </span>
                 <span className="block bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
                     here’s how far we’ve come
